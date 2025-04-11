@@ -24,7 +24,7 @@ const Careers = () => {
     <div className="careers-page">
       <h1>Join Our Team</h1>
       {loading ? (
-        <p>Loading job listings...</p>
+        <p>Loading job listings....</p>
       ) : (
         <div className="job-listings">
           {jobs.map((job) => (
@@ -35,5 +35,4 @@ const Careers = () => {
     </div>
   );
 };
-
 export default Careers;
